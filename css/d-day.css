@@ -1,0 +1,23 @@
+.main-d-day-container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to top, #c9ffbf, #ffafbd);
+}
+.main-d-day-container > .meeting-days {
+  position: absolute;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.meeting-days-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.5;
+}
