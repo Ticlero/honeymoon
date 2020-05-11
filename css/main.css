@@ -7,6 +7,19 @@
   position: relative;
 }
 
+.main-container.notop {
+  padding-top: 0;
+}
+
+.main-container > .main-container__column {
+  width: 960px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: static;
+}
+
 @media screen and (min-width: 0px) and (max-width: 460px) {
   .main-container .grid-container {
     display: grid;
