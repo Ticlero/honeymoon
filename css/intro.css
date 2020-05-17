@@ -1,6 +1,9 @@
 .main-intro-container {
   width: 960px;
   height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media screen and (min-width: 0px) and (max-width: 460px) {
@@ -109,7 +112,8 @@
       height: 360px;
     } */
 }
-.box_intro span {
+.box_intro span,
+.box_intro p {
   line-height: 1.5;
   padding-left: 30px;
 }

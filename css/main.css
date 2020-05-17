@@ -12,11 +12,9 @@
 }
 
 .main-container > .main-container__column {
-  width: 960px;
-  height: 100vh;
+  width: 1080px;
   display: flex;
   justify-content: center;
-  align-items: center;
   position: static;
 }
 
@@ -54,7 +52,7 @@
   }
 }
 
-@media screen and (min-width: 741px) {
+@media screen and (min-width: 741px) and (max-width: 1200px) {
   .main-container .grid-container {
     display: grid;
     grid-template-columns: 360px 360px;
@@ -93,6 +91,8 @@
   margin-left: 10px;
   margin-right: 10px;
   border: 1px solid #f3f3f3;
+  display: flex;
+  justify-content: center;
 }
 
 .box .box__overlay {

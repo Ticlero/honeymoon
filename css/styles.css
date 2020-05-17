@@ -4,6 +4,13 @@
 @import "main.css";
 @import "intro.css";
 @import "d-day.css";
+@import "intro-page.css";
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -13,6 +20,10 @@ body {
   background-color: #f3f3f3;
   color: #111111;
   font-family: "Open Sans", "Nanum Gothic";
+}
+
+.full-use {
+  height: 100%;
 }
 
 a {
