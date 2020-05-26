@@ -2,8 +2,10 @@
   width: 960px;
   height: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
   justify-content: center;
+  align-items: center;
 }
 .intro-page-container > .intro-page-grid-container {
   margin: 10px 0;
