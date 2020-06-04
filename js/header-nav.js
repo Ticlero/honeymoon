@@ -11,10 +11,12 @@ navEle.addEventListener("click", (event) => {
     nav.style.display = "block";
     nav.childNodes[1].style.animation =
       "show-menu-lists 0.5s ease-in-out forwards";
+    nav.childNodes[1].style.display = "flex";
     nav.style.animation = "dropdown 0.5s ease-in-out forwards";
   } else {
     nav.childNodes[1].style.animation =
       "hide-menu-lists 0.5s ease-in-out forwards";
+    nav.childNodes[1].style.display = "none";
     nav.style.animation = "dropup 0.5s ease-in-out forwards";
   }
 });

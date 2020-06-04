@@ -70,10 +70,12 @@
 @keyframes dropdown {
   from {
     opacity: 0;
+    width: 0;
     height: 0;
   }
   to {
     opacity: 1;
+    width: 150px;
     height: 150px;
   }
 }
@@ -81,10 +83,12 @@
 @keyframes dropup {
   from {
     opacity: 1;
+    width: 150px;
     height: 150px;
   }
   to {
     opacity: 0;
+    width: 0;
     height: 0px;
   }
 }
@@ -95,11 +99,10 @@
   background-color: #fcfcfc;
   border: 1px solid #f7f7f7;
   border-radius: 10px;
-  width: 150px;
+  width: 0px;
   left: -150px;
   top: 35px;
 }
-
 @keyframes show-menu-lists {
   from {
     opacity: 0;
